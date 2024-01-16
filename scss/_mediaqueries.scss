@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark)
+{
+    html{
+        background-color: $gris_fond;
+        color : #ffffff;
+    }
+    img{
+        background-color: #ffffff;
+    }
+    a{
+        color:#ffffff;
+    }
+    input,textarea{
+        background-color: #42414D;
+        color: #ffffff;
+    }
+}

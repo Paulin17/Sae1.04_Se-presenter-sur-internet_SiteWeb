@@ -1,0 +1,60 @@
+nav{ 
+    position: sticky;
+    top: 0rem;
+}
+.nav {
+    padding-left: 4%;
+    background: $light_bleu;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav_button {
+    font-size: 4rem;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.nav_button::before {
+    content: "≡";
+}
+.nav_menu {
+    position: fixed;
+    width: 40vw;
+    height: 100vh;
+    z-index: 1;
+    background: $colorFond;
+    left: -40vW;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: left 400ms;
+    /*etat initial */
+}
+.nav_menu li a:hover{
+    color: $light_bleu;
+}
+.nav_menu a {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.nav_input {
+    display: none;
+}
+  
+.nav_input:checked ~ .nav_menu {
+    /* etat final*/
+    left: 0;
+}
+
+.nav_input:checked ~ .nav_button::before {
+  content: "✗";
+  font-size: vw;
+  transition: 1s;
+}

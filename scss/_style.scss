@@ -1,0 +1,80 @@
+*,*::before, *:after{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff ;
+    color : #000;
+    font-family: 'Open sans', sans-serif;
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.about_me{
+    text-align: center;
+}
+.about_me h2,article{
+    text-align: left;
+}
+
+footer{
+    font-size: 1.5rem;
+    position: sticky;
+    bottom: 0rem;
+    display: flex;
+    background-color: #0e94ee;
+    justify-content: space-between;
+}
+
+footer p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0.5rem 1rem ;
+}
+
+iframe{
+    width: 90vw;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #000 solid;
+}
+
+iframe{
+    width: 95vw;
+    height: 50vh;
+    padding: 2rem;
+}
+form{
+    margin: 0 2.5vw 1rem 2.5vw;
+}
+
+.bouton{
+    background-color: $bleu;
+    color: #FFF;
+    border: $bleu;
+    width:20vw;
+    height: 4vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form_contact section{
+    display:grid;
+    margin: 0.5rem 0;
+}
+input{
+    width:50vw;
+}
+textarea{
+    width:95vw;
+    height:10vh ;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    margin-bottom: 0.5rem;
+}
