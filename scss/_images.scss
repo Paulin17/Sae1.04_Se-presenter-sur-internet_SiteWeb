@@ -22,11 +22,17 @@
 .contacts{
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .contacts img{
     margin-left:1rem;
     margin-right: 1rem;
     width: 20vw;
     border-radius: 30%;
+}
+
+.cv img{
+    border-radius: 10%;
+    width: 20vw;
 }

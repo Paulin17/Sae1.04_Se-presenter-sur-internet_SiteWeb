@@ -78,3 +78,23 @@ textarea{
 label{
     margin-bottom: 0.5rem;
 }
+
+.crédit{
+    display: flex;
+    margin: 2rem;
+    border-top : 2px solid #00388b ;
+}
+
+.actif a{
+    color:red;
+}
+
+.cv a{
+    display: block;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+.cv a p{
+    font-size: 5rem;
+    width: max(20vw);
+}
