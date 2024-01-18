@@ -410,17 +410,13 @@ label {
 }
 
 .actif a {
-  color: red;
+  color: #0e94ee;
 }
 
 .cv a {
   display: block;
-  margin-left: 40vw;
-  margin-right: 40vw;
-}
-
-.cv a p {
-  font-size: 5rem;
+  margin-left: 35vw;
+  margin-right: 35vw;
   width: 20vw;
 }
 
@@ -450,7 +446,8 @@ p {
   margin: 1rem;
 }
 
-.about_me article h3 {
+/*ici pour les H3 il faut rajouter .about_me */
+article h3 {
   text-align: center;
 }
 
@@ -491,7 +488,7 @@ h1 {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 20vw;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 
 .cv img {
@@ -503,9 +500,6 @@ h1 {
   html {
     background-color: #18181A;
     color: #ffffff;
-  }
-  img {
-    background-color: #ffffff;
   }
   a {
     color: #ffffff;

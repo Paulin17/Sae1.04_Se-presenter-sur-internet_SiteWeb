@@ -86,15 +86,12 @@ label{
 }
 
 .actif a{
-    color:red;
+    color:$bleu;
 }
-
+ 
 .cv a{
     display: block;
-    margin-left: 40vw;
-    margin-right: 40vw;
-}
-.cv a p{
-    font-size: 5rem;
-    width: max(20vw);
+    margin-left: 35vw;
+    margin-right: 35vw;
+    width: 20vw;
 }
