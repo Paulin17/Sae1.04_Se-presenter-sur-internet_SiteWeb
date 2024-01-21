@@ -1,6 +1,6 @@
 nav{ 
     position: sticky;
-    z-index: 3;
+    z-index: 1;
     top: 0rem;
 }
 .nav {
@@ -27,7 +27,6 @@ nav{
     position: fixed;
     width: 40vw;
     height: 100vh;
-    z-index: 1;
     background: $colorFond;
     left: -40vW;
     top: 0;

@@ -28,53 +28,102 @@
     display: none;
 }
 .nav{
-    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
-    display: flex;
-    flex-direction: column;
+    top: 0rem;
+    width: 100%;
+    background: $light_bleu;
 }
 .nav_menu {
+    display: block;
+    grid-column: 1;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    position: relative;
+    background-color: transparent;
     left: 0;
     width: 100vw;
     height: 10vh;
     z-index: 1;
-    background: #0a0075;
     display: flex;
     flex-direction:row;
     justify-content: left;
     align-items: center;
     /*etat initial */
 }
-.nav {    
-    height: 20vh;
+.nav_title{
+    padding: 0;
+    margin: 0;
+    grid-column: 3;
+    font-size: 4rem;
 }
 .nav_menu li{
-    margin-right: 3rem;
+    margin-right:  1.5vw;
 }
 .nav_menu li a{
     
-    font-size: 2.5rem;
+    font-size:  min(2vw,2.5rem);
 }
-.contenue_page{
-    display: flex;
-    justify-content: space-evenly;
+#contenue_page_projet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#contenue_page_index{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+#index_but{
+    grid-column: 1 / 4;
 }
 
-.photo_portrait{
-    position: absolute;
-    top: 0;
-    right: 5vw;
-    width: 10vw;
-    z-index: 3;
+#index_parcour{
+    grid-column: 4 / 7;
 }
 
-.contenue_page article{
-    width: 50vw;
+#index_passion{
+    grid-column: 7 / 10;
 }
+
+
+#photo_portrait{
+    grid-column: 10/12;
+    width: 80%;
+    margin: auto;
+}
+
+
 .logo_accueil{
     width: 10vw;
 }
+
+#contenue_page_f-exp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+#col_form{
+    grid-row: 1 / 10;
+}
+#case_exp{
+    grid-row: 1;
+    grid-column: 2;
+}
+#cv{
+    grid-row: 2/7;
+    grid-column: 2;
+}
+#cv a img{
+    width: 10vw;
+    display: block;
+    margin: auto;
+}
+h2{
+    border-bottom : 2px solid #00388b ;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: $light_bleu ;
+    font-weight: bold;
+}
+
 }

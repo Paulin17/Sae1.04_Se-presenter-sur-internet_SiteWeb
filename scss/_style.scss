@@ -12,12 +12,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-.about_me{
-    text-align: center;
-}
-.about_me h2,article{
-    text-align: left;
-}
+
 
 footer{
     font-size: 1.5rem;
@@ -88,12 +83,13 @@ label{
 .actif a{
     color:$bleu;
 }
- 
+.cv{
+    text-align: center;
+}
 .cv a{
     display: block;
-    margin-left: 35vw;
-    margin-right: 35vw;
-    width: 20vw;
+    margin: auto;
+    width: 30vw;
 }
 
 .pc {
@@ -104,4 +100,38 @@ label{
     display: none;
     margin: 0;
     padding: 0;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+}
+
+.medias{
+    height: 100%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+
+.lien_visible{
+    color: #00388b;
+    text-decoration: underline #00388b;
+}
+
+.about_me{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.voir_plus{
+    text-align: center;
+}
+.voir_plus a{
+    
+    background-color: #0e94ee;
+    border-radius: 10px;
+    padding: 0 2% 0 2%;
 }
