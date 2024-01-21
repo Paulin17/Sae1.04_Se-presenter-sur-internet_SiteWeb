@@ -30,19 +30,16 @@ footer p{
 }
 
 iframe{
-    width: 90vw;
-    height: 50vh;
+    width: 90%;
+    height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: #000 solid;
-}
-
-iframe{
-    width: 95vw;
-    height: 50vh;
     padding: 2rem;
 }
+
+
 form{
     margin: 0 2.5vw 1rem 2.5vw;
 }
@@ -57,18 +54,16 @@ form{
     margin-left: auto;
     margin-right: auto;
 }
-.form_contact section{
+#form_contact section{
     display:grid;
     margin: 0.5rem 0;
 }
 input{
-    width:50vw;
+    width:50%;
 }
 textarea{
-    width:95vw;
+    width:100%;
     height:10vh ;
-    margin-left: auto;
-    margin-right: auto;
 }
 label{
     margin-bottom: 0.5rem;
@@ -107,13 +102,7 @@ video{
     width: 100%;
 }
 
-.medias{
-    height: 100%;
-    width: 60%;
-    display: block;
-    margin: auto;
-    
-}
+
 
 .lien_visible{
     color: #00388b;
@@ -134,4 +123,7 @@ p{
     background-color: #0e94ee;
     border-radius: 10px;
     padding: 0 2% 0 2%;
+}
+.voir_plus:hover{
+  transform: scale(1.1);
 }

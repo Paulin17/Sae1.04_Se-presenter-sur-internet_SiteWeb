@@ -54,7 +54,7 @@ table {
   border-spacing: 0;
 }
 
-nav {
+header {
   position: sticky;
   z-index: 1;
   top: 0rem;
@@ -306,17 +306,12 @@ footer p {
 }
 
 iframe {
-  width: 90vw;
-  height: 50vh;
+  width: 90%;
+  height: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: #000 solid;
-}
-
-iframe {
-  width: 95vw;
-  height: 50vh;
   padding: 2rem;
 }
 
@@ -335,20 +330,18 @@ form {
   margin-right: auto;
 }
 
-.form_contact section {
+#form_contact section {
   display: grid;
   margin: 0.5rem 0;
 }
 
 input {
-  width: 50vw;
+  width: 50%;
 }
 
 textarea {
-  width: 95vw;
+  width: 100%;
   height: 10vh;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 label {
@@ -390,13 +383,6 @@ video {
   width: 100%;
 }
 
-.medias {
-  height: 100%;
-  width: 60%;
-  display: block;
-  margin: auto;
-}
-
 .lien_visible {
   color: #00388b;
   -webkit-text-decoration: underline #00388b;
@@ -421,6 +407,10 @@ p {
   padding: 0 2% 0 2%;
 }
 
+.voir_plus:hover {
+  transform: scale(1.1);
+}
+
 .nav_title {
   text-align: center;
   font-size: 3rem;
@@ -433,7 +423,7 @@ article {
 
 h2 {
   border-bottom: 2px solid #00388b;
-  margin: 1rem;
+  margin: 3rem 1rem 2rem 1rem;
   font-size: 2rem;
   color: #81cefe;
   font-weight: bold;
@@ -495,6 +485,13 @@ h1 {
 .cv img {
   border-radius: 10%;
   width: 30vw;
+}
+
+.medias {
+  height: 100%;
+  width: 80%;
+  display: block;
+  margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -609,5 +606,53 @@ h1 {
     font-size: 2rem;
     color: #81cefe;
     font-weight: bold;
+  }
+  .nav_menu li a:hover {
+    color: #3022c8;
+  }
+  #contenue_page_contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  #liste_reseau {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #gg_map {
+    grid-column: 2;
+    grid-row: 1/3;
+  }
+  #gg_map iframe {
+    height: 95%;
+  }
+  #form_contact {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .contacts img {
+    margin-top: 4rem;
+    width: 10vw;
+  }
+  .contacts img:hover {
+    transform: scale(1.1);
+  }
+  #contenue_page_passions {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #JV {
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  #serveur {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
   }
 }/*# sourceMappingURL=main.css.map */
