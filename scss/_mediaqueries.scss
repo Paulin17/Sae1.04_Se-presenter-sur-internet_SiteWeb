@@ -70,6 +70,16 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+.colone_page_projet{
+    display: grid;
+    grid-template-rows: 20rem 1fr;
+}
+.grid_2eme_l{
+    display: block;
+    width: 80%;
+    margin: auto;
+    grid-row: 2;
+}
 #contenue_page_index{
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -177,5 +187,8 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100vw;
+}
+#aglorea{
+    height: 10vh;
 }
 }
